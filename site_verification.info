@@ -1,0 +1,5 @@
+name = Site verification
+description = Display files and META tags for site ownership verification.
+backdrop = 1.x
+type = module
+configure = admin/config/services/site_verification
