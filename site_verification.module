@@ -9,6 +9,18 @@
  */
 
 /**
+ * Implements hook_config_info();
+ */
+function site_verification_config_info() {
+  $prefixes = array();
+  $prefixes['site_verification.settings'] = array(
+    'group' => t('Configuration'),
+    'label' => t('Site verification settings'),
+  );
+  return $prefixes;
+}
+
+/**
  * Implements hook_perm().
  */
 function site_verification_permission() {
