@@ -15,7 +15,7 @@ Supported vendors are:
 Current Maintainer
 ------------------
 
-- None
+- Seeking Maintainer
 
 Credits
 -----------
